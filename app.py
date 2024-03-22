@@ -48,7 +48,7 @@ def update_graph(selected_countries, selected_years):
 
 ###LAYOUT###
 app.layout = html.Div(children=[
-    html.H1(children="GDP Data - Assignment 4"),
+    html.H1(children="GDP Data - Assignment 5"),
     html.Div(children="This application computes data analytics on GDP data. It takes into account of the GDP per country specified in the data set. Other features, like the dropdown and slider, can be messed with, but do not affect the graph in any way whatsoever."),
     
     # Dropdown for country selection
