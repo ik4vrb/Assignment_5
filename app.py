@@ -8,6 +8,7 @@ stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 # initialize the app
 app = Dash(__name__, external_stylesheets=stylesheets)
+server = app.server
 
 ###DATA MANAGAMENT###
 # read in data (data can be found in course folder)
